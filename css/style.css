@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+header{
+    width: 100%;
+    height: 90%;
+    background-image: url(../pic/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.for-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.add{
+    padding: 3% 5%;
+}
+
+nav{
+    border-bottom: 1px solid #fff;
+}
+
+nav h3{
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+ul .fa{
+    font-size: 1.5rem;
+    display: none;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    padding-left: 2rem;
+    font-size: 1.3rem;
+}
+
+.banner{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.add-border{
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+}
+
+.banner .main{
+   width: 30%;
+   text-align: center;
+   margin-top: 3rem;
+}
+
+.banner .main span{
+    color: rgb(93, 175, 93);
+    font-size: 1.5rem;
+}
+
+.banner .main h3{
+    padding: 0.5rem 0;
+}
+
+.submit{
+    width: 130px;
+    height: 30px;
+    background: none;
+    border:  2px solid rgb(93, 175, 93);
+    color: rgb(93, 175, 93);
+    border-radius: 50px;
+    margin-top: 2rem;
+}
+
+.center .box{
+    width: 40%;
+    text-align: center;
+}
+
+.box img{
+    width: 50%;
+    border-radius: 100%;
+}
+
+.box h3{
+    color: grey;
+    padding: 1rem 0;
+}
+
+.box p{
+    color: grey;
+    line-height: 1.5rem;
+}
+
+
+.full-wrapper{
+    width: 100%;
+    background-color: rgb(93, 175, 93);
+    color: #fff;
+}
+
+.down h2{
+    text-align: center;
+}
+
+.down h3{
+    margin-bottom: 1rem;
+}
+
+.two-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+.name{
+    width: 49%;
+}
+
+.email{
+    width: 49%;
+}
+
+input{
+    width: 100%;
+    background: none;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    background: none;
+    border: 1px solid #fff;
+    padding: 0 0 150px;
+    border-radius: 5px;
+}
+
+
+.last{
+    text-align: center;
+}
+
+.last button{
+    border: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width:700px) {
+
+    nav ul li{
+        display: none;
+    }
+
+    ul .fa{
+        display: block;
+    }
+
+    .banner .main{
+        width: 100%;
+        text-align: center;
+        margin-top: 3rem;
+     }
+
+     .add-border{
+       border: none;
+    }
+
+    .center{
+        margin-top: 2rem;
+    }
+
+    .center .box{
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+}
+
